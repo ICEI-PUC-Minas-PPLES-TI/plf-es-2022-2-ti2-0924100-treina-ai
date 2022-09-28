@@ -263,6 +263,8 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Descrição | Caixa de Texto | No máximo 70 caracteres. |   |
 
+---
+
 #### Processo 5 – Criação de Módulos
 
 **Criar Módulo**
