@@ -188,7 +188,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 ---
 
 
-#### Processo 2 – Cadastro de Aprendiz.
+#### Processo 2 – Cadastro de Aprendiz
 
 **Inserir Nome**
 
@@ -217,7 +217,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ---
 
-#### Processo 3 – Realização de Login.
+#### Processo 3 – Login.
 
 **Inserir Nome**
 
@@ -271,28 +271,13 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ---
 
-#### Processo 2 – FLUXOGRAMA USUÁRIO
-
-**Realização do Login na plataforma**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| login | Caixa de Texto | formato de e-mail |  |
-| --- | --- | --- | --- |
-| senha | Caixa de Texto | mínimo de 7 caracteres |   |
-
-**Cumprir trilha de aprendizado**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Aulas |Área de texto, Caixa de texto,Arquivo. |Remover aulas  |  |
-
-#### Processo 8 – Seleção e Realização de Testes
+#### Processo 7 – Seleção e Realização de Testes
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Questão aberta |Área de texto, Caixa de texto,Arquivo  |Enviar mais de um arquivo, Limite de caracteres |  |
 | Questão fechada |Marcador de resposta  |Selecionar mais de uma resposta |  |
+
 
 
 
