@@ -239,6 +239,32 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
 
+
+
+---
+
+#### Processo 4 – Criação e Atualização de Tutoriais
+
+**Enviar arquivo**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Upload de Arquivo | Seleção Única | Até 100MB |  |
+
+**Inserir Nome do Tutorial**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Caixa de Texto | Mínimo 2 nomes |   |
+
+**Inserir Descrição do Tutorial**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Descrição | Caixa de Texto | No mínimo 70 caracteres. |   |
+
+
+
 ---
 
 #### Processo 2 – FLUXOGRAMA USUÁRIO
