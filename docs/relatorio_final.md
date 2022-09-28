@@ -249,7 +249,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Upload de Arquivo | Seleção Única | Até 100MB |  |
+| Upload de Arquivo | Seleção Única | .mp4 .mov Até 100MB |  |
 
 **Inserir Nome do Tutorial**
 
