@@ -283,11 +283,13 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Aulas |Área de texto, Caixa de texto,Arquivo. |Remover aulas  |  |
 
-**Realização do testes**
+#### Processo 8 – Seleção e Realização de Testes
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Testes |Área de texto, Caixa de texto,Arquivo, Múltipla escolha  |Marcar mais de uma alternativa |  |
+| Questão aberta |Área de texto, Caixa de texto,Arquivo  |Enviar mais de um arquivo, Limite de caracteres |  |
+| Questão fechada |Marcador de resposta  |Selecionar mais de uma resposta |  |
+
 
 
 ### 4.2. Tecnologias
