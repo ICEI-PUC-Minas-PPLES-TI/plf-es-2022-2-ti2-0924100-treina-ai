@@ -154,7 +154,7 @@ Processo para visualizar os tutorias disponibilizados nos módulos desbloquedos.
 
 ### 3.3.7 Processo 7  - Seleção e Realização de provas
 Este processo demonstra como será a seleção e a realização das provas que irão informar se o aprendiz está apto ou não para terminar o treinamento daquele módulo.
-![Criação e realização de testes](https://user-images.githubusercontent.com/103525330/191606275-f28ac85e-9b9d-4db8-82cf-8eb4f007def9.jpeg)
+![Criação e realização de testes (1)](https://user-images.githubusercontent.com/103525330/192892308-a5ed8d66-95a5-4331-ab32-1bf8a1f8a7bf.jpeg)
 
 
 
