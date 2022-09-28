@@ -114,10 +114,8 @@ A plataforma será estruturada conforme modelagem sendo composta pelos seguintes
 3 - Login;
 4 - Criação e Atualização de Tutoriais;
 5 - Criação de Módulos;
-6 - Acesso aos Módulos (Aprendiz);
-7 - Visualização de Tutoriais;
-8 - Realização de Testes;
-9 - Aplicação e Criação de Testes;
+6 - Visualização de Tutoriais;
+7 - Seleção e Realização de Provas;
 
 
 ## 3.3. Modelagem dos Processos
@@ -148,18 +146,13 @@ Processo do Usuário Administrador para criar o os Módulos e a Trilha de Aprend
 ![Blank diagram](https://user-images.githubusercontent.com/104038353/191589863-b19241c2-5a9b-4542-806d-d0e7bcf7e1e6.jpeg)
 
 
-### 3.3.6 Processo 6 - Acesso aos Módulos (Aprendiz)
-Processo para o usuário aprendiz acessar a plataforma.
-
-![Blank diagram]([https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/master/docs/imagens/Fluxograma%20-%20Acesso%20aos%20M%C3%B3dulos%20(Aprendiz).jpeg](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/master/docs/imagens/Cadastro%20de%20Aprendiz.png))
-
-### 3.3.7 Processo 7 - Visualização de Tutoriais
+### 3.3.6 Processo 6 - Visualização de Tutoriais
 Processo para visualizar os tutorias disponibilizados nos módulos desbloquedos. 
 
-![Diagrama em branco (12)](https://user-images.githubusercontent.com/81266506/191125815-3d3b1306-2001-4c18-9a4f-07d31f0903b9.png)
+![Diagrama em branco (13)](https://user-images.githubusercontent.com/81266506/192884365-e1bf1ed8-646f-48a8-9f20-b524279d4619.png)
 
 
-### 3.3.8 Processo 8  - Seleção e Realização de provas
+### 3.3.7 Processo 7  - Seleção e Realização de provas
 Este processo demonstra como será a seleção e a realização das provas que irão informar se o aprendiz está apto ou não para terminar o treinamento daquele módulo.
 ![Criação e realização de testes](https://user-images.githubusercontent.com/103525330/191606275-f28ac85e-9b9d-4db8-82cf-8eb4f007def9.jpeg)
 
