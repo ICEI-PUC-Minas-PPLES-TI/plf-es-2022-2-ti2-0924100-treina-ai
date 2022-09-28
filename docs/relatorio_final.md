@@ -271,12 +271,17 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ---
 
-#### Processo 7 – Seleção e Realização de Testes
+#### Processo 7 – Seleção e Realização de Provas
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
+| **Seleção da Prova** | --- | --- | --- |
+| Provas |Arquivo|Enviar mais de um arquivo, Limite de caracteres | --- |
+| **Realização da Prova** | --- | --- | --- |
 | Questão aberta |Área de texto, Caixa de texto,Arquivo  |Enviar mais de um arquivo, Limite de caracteres |  |
-| Questão fechada |Marcador de resposta  |Selecionar mais de uma resposta |  |
+| Questão fechada |Marcador de resposta  |Selecionar mais de uma resposta | --- |
+| **Correção da prova** | --- | --- | --- |
+| Correção |Arquivo| --- | --- |
 
 
 
