@@ -135,7 +135,7 @@ Processo de cadastro que o Aprendiz irá realizar na plataforma.
 ### 3.3.3 Processo 3 – Login 
 Processo do Usuário para logar na plataforma Treina aí!.
 
-![Login BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/7f1c12ba63f5823d0dba2741486d3d84727dabf2/docs/imagens/Realiza%C3%A7%C3%A3o%20do%20Login.png)
+![Login BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/ff7d49b30f6fe61beefb36ccdcbb675bb523df1e/docs/imagens/Realiza%C3%A7%C3%A3o%20do%20Login.jpeg)
 
 ### 3.3.4 Processo 4 - Criação e Atualização de Tutoriais
 Processo para realizar a Criação e Atualização de Tutoriais.
@@ -166,32 +166,57 @@ Este processo demonstra como será a seleção e a realização das provas que i
 
 
 
-
-
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
 
-Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
+Segue abaixo o detalhamento das atividades dos processos estipulados:
 
-#### Processo 1 – FLUXOGRAMA ADMINISTRADOR
+#### Processo 2 – Cadastro de Aprendiz.
 
-**Cadastro de Materiais e de Usuários**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Upload video-aulas | Arquivo | Máximo 20 minutos |  |
-| --- | --- | --- | --- |
-| login | Caixa de Texto | formato de e-mail |  |
-| --- | --- | --- | --- |
-| senha | Caixa de Texto | mínimo de 7 caracteres |   |
-
-**Atribuição da Trilha de Aprendizado ao usuário**
+**Inserir Nome**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Registro Aluno | Área de texto, Imagem, Arquivo, Link|  |  |
+| Inserir Nome | Caixa de texto | Mínimo dois nomes |  |
+| Inserir Email | Caixa de Texto | formato de e-mail |  |
 
+**Inserir Senha**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
+
+**Enviar Dados para o Administrador**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Enviar Dados | Seleção única |   |   |
+
+**Analizar Cadastro do Aprendiz**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Autorizar login | Seleção única |   |   |
+
+---
+
+#### Processo 3 – Realização de Login.
+
+**Inserir Nome**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Inserir Nome | Caixa de texto | Mínimo dois nomes |  |
+| Inserir Email | Caixa de Texto | formato de e-mail |  |
+
+**Inserir Senha**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
+
+---
 
 #### Processo 2 – FLUXOGRAMA USUÁRIO
 
