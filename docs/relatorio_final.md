@@ -190,7 +190,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Enviar Dados | Seleção única |   |   |
+| Enviar Dados | Seleção única |  Mais de um email para o mesmo administrador |   |
 
 ---
 
