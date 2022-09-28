@@ -171,6 +171,29 @@ Este processo demonstra como será a seleção e a realização das provas que i
 ### 4.1. Detalhamento das atividades
 
 Segue abaixo o detalhamento das atividades dos processos estipulados:
+#### Processo 1 – Cadastro de Administrador
+
+**Inserir Nome**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Inserir Nome | Caixa de texto | Mínimo dois nomes |  |
+| Inserir Email | Caixa de Texto | formato de e-mail |  |
+
+**Inserir Senha**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
+
+**Enviar Dados para o Banco de dados**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Enviar Dados | Seleção única |   |   |
+
+---
+
 
 #### Processo 2 – Cadastro de Aprendiz.
 
