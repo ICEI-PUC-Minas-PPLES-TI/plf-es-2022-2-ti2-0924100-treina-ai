@@ -261,8 +261,17 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Descrição | Caixa de Texto | No mínimo 70 caracteres. |   |
+| Descrição | Caixa de Texto | No máximo 70 caracteres. |   |
 
+#### Processo 5 – Criação de Módulos
+
+**Criar Módulo**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome do Módulo | Caixa de Texto | Máximo 40 Caracteres |  |
+| Sessão | Caixa de Texto |  |  |
+| Ordem do Módulo| Caixa de Texto | Números |  |
 
 
 ---
