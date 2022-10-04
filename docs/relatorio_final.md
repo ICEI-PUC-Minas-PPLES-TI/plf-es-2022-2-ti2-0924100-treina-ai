@@ -170,7 +170,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Nome | Caixa de texto | Mínimo dois nomes |  |
+| Inserir Primeiro Nome | Caixa de texto |Máximo um nome  |  |
 | Inserir Email | Caixa de Texto | formato de e-mail |  |
 
 **Inserir Senha**
@@ -179,11 +179,14 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
 
-**Enviar Dados para o Banco de dados**
+**Inserir Sobrenome**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Enviar Dados | Seleção única |  Mais de um email para o mesmo administrador |   |
+| Inserir Sobrenome| Caixa de texto | Máximo dois sobrenomes  |  |
+
+
+
 
 ---
 
