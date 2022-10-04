@@ -149,7 +149,7 @@ Processo do Usuário Administrador para criar o os Módulos e a Trilha de Aprend
 ### 3.3.6 Processo 6 - Visualização de Tutoriais
 Processo para visualizar os tutorias disponibilizados nos módulos desbloquedos. 
 
-![Diagrama em branco (14)](https://user-images.githubusercontent.com/81266506/193941861-f40d6173-1ea2-4238-a1d2-2d7c588f7da5.png)
+![Diagrama em branco (15)](https://user-images.githubusercontent.com/81266506/193942094-12f5011c-5f05-4f42-b162-6b8a284e0855.png)
 
 
 ### 3.3.7 Processo 7  - Seleção e Realização de provas
