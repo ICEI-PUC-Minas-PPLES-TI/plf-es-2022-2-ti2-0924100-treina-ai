@@ -171,7 +171,20 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Inserir Primeiro Nome | Caixa de texto |Máximo um nome  |  |
-| Inserir Email | Caixa de Texto | formato de e-mail |  |
+
+
+**Inserir Sobrenome**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Inserir Sobrenome| Caixa de texto | Máximo dois sobrenomes  |  |
+
+**Inserir Email**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Inserir email| Caixa de texto | formato de email |  |
+
 
 **Inserir Senha**
 
@@ -179,11 +192,6 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
 
-**Inserir Sobrenome**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Inserir Sobrenome| Caixa de texto | Máximo dois sobrenomes  |  |
 
 
 
