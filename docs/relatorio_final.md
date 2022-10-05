@@ -137,7 +137,7 @@ Processo do Usuário para logar na plataforma Treina aí!.
 
 ### 3.3.4 Processo 4 - Criação e Atualização de Tutoriais
 Processo para realizar a Criação e Atualização de Tutoriais.
-![Criação e Atualização de Tutoriais](https://user-images.githubusercontent.com/86814212/194115883-ac2cc84a-0d19-4382-998e-b3d569e5e02c.png)
+![Criação e Atualização de Tutoriais](https://user-images.githubusercontent.com/86814212/194117049-3c924961-0fcd-4234-bbeb-dbfde8509f3a.png)
 
 
 ### 3.3.5 Processo 5 – Criação de Módulos 
