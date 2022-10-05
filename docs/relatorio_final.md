@@ -234,7 +234,6 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Nome | Caixa de texto | Mínimo dois nomes |  |
 | Inserir Email | Caixa de Texto | formato de e-mail |  |
 
 **Inserir Senha**
