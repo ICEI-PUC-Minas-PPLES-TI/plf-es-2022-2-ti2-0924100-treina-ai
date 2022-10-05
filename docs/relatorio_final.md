@@ -228,7 +228,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ---
 
-#### Processo 3 – Login.
+#### Processo 3 – Login
 
 **Inserir Nome**
 
@@ -278,6 +278,26 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | Nome do Módulo | Caixa de Texto | Máximo 40 Caracteres |  |
 | Sessão | Caixa de Texto |  |  |
 | Ordem do Módulo| Caixa de Texto | Números |  |
+
+
+---
+
+#### Processo 6 – Visualização de Tutoriais
+
+**Selecionar Módulo**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Visualiza Módulos | Tabela |  |  |
+| Seleciona Módulo | Seleção única | Módulo deve estar desbloqueado | Usuário ainda não desbloqueou este módulo |
+
+**Selecionar Aula**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Listagem de Tutoriais | Tabela |  |   |
+| Seleciona Aula | Seleção única | Aula deve estar desbloqueada |  |
+| Assistir Tutorial | Arquivo |  |   |
 
 
 ---
