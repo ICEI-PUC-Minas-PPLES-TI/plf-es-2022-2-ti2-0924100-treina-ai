@@ -137,7 +137,7 @@ Processo do Usuário para logar na plataforma Treina aí!.
 
 ### 3.3.4 Processo 4 - Criação e Atualização de Tutoriais
 Processo para realizar a Criação e Atualização de Tutoriais.
-![Criação e Atualização de Tutoriais](https://user-images.githubusercontent.com/86814212/191610434-86a05625-cb3d-4584-9030-79a1c178bb0b.jpeg)
+![Criação e Atualização de Tutoriais](https://user-images.githubusercontent.com/86814212/194115883-ac2cc84a-0d19-4382-998e-b3d569e5e02c.png)
 
 
 ### 3.3.5 Processo 5 – Criação de Módulos 
@@ -248,23 +248,27 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 #### Processo 4 – Criação e Atualização de Tutoriais
 
-**Enviar arquivo**
+**Edição do Tutorial**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Upload de Arquivo | Seleção Única | .mp4 .mov Até 100MB |  |
+| Nome do Tutorial | Caixa de Texto | No máximo 25 caracteres. |  |
+| Descrição do Tutorial | Caixa de Texto | No máximo 70 caracteres. |  |
+| Envio de arquivo | Seleção Única | URL |  |
 
-**Inserir Nome do Tutorial**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Nome | Caixa de Texto | Mínimo 2 nomes |   |
-
-**Inserir Descrição do Tutorial**
+**Upload do Tutorial**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Descrição | Caixa de Texto | No máximo 70 caracteres. |   |
+| Nome do Tutorial | Caixa de Texto | No máximo 25 caracteres. |  |
+| Descrição do Tutorial | Caixa de Texto | No máximo 70 caracteres. |  |
+| Envio de arquivo | Seleção Única | URL |  |
+
+**Adicionar Tutorial Ao Módulo**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Adicionar Tutorial | Seleção Única |  |   |
 
 ---
 
