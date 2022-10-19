@@ -135,15 +135,19 @@ Processo do Usuário para logar na plataforma Treina aí!.
 
 ![Login BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/ff7d49b30f6fe61beefb36ccdcbb675bb523df1e/docs/imagens/Realiza%C3%A7%C3%A3o%20do%20Login.jpeg)
 
-### 3.3.4 Processo 4 - Criação e Atualização de Tutoriais
+
+
+### 3.3.5 Processo 4 – Criação de Módulos 
+Processo do Usuário Administrador para criar o os Módulos e a Trilha de Aprendizado dentro da plataforma Treina aí!. Neste processo o Administrador cria as sessões para novos colaboradores e cria uma área para upload dos materiais.
+
+![BPMN 2 0 Example (12)](https://user-images.githubusercontent.com/102169915/196708399-134a9b8e-a20c-4efe-bda8-62278163ca61.png)
+
+
+
+### 3.3.4 Processo 5 - Criação e Atualização de Tutoriais
 Processo para realizar a Criação e Atualização de Tutoriais.
 ![Criação e Atualização de Tutoriais](https://user-images.githubusercontent.com/86814212/194117049-3c924961-0fcd-4234-bbeb-dbfde8509f3a.png)
 
-
-### 3.3.5 Processo 5 – Criação de Módulos 
-Processo do Usuário Administrador para criar o os Módulos e a Trilha de Aprendizado dentro da plataforma Treina aí!. Neste processo o Administrador cria as sessões para novos colaboradores e cria uma área para upload dos materiais.
-
-![Blank diagram](https://user-images.githubusercontent.com/104038353/191589863-b19241c2-5a9b-4542-806d-d0e7bcf7e1e6.jpeg)
 
 
 ### 3.3.6 Processo 6 - Visualização de Tutoriais
