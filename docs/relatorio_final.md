@@ -123,7 +123,7 @@ A plataforma será estruturada conforme modelagem sendo composta pelos seguintes
 ### 3.3.1 Processo 1 - Cadastro de Administrador
 Processo do administrador que fará o registro do aprendz e colocar os materiais didaticos para o usuário seguir de acordo com as necessidades da empresa.
 
-![BPMN 2 0 Example (9)](https://user-images.githubusercontent.com/102169915/190935124-5a67ec2f-db7c-4570-a41f-06dd518d150c.png)
+![BPMN 2 0 Example (13)](https://user-images.githubusercontent.com/102169915/196711226-135dec15-1813-4196-bcf2-bf9067b4536f.png)
 
 ### 3.3.2 Processo 2 - Cadastro de Aprendiz
 Processo de cadastro que o Aprendiz irá realizar na plataforma.
@@ -195,6 +195,21 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
+
+**Inserir Telefone**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Inserir telefone| Caixa de texto | formato telefone| (00) 00000-0000 |
+
+
+**Inserir Endereço**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Inserir Endereço| Caixa de texto |
+| Inserir Bairro| Caixa de texto | formato texto|  
+| Inserir número residencial| Caixa de texto | formato texto|  
 
 
 
