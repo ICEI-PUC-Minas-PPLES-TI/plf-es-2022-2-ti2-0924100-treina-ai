@@ -274,7 +274,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Nome do Tutorial | Caixa de Texto | No máximo 25 caracteres. |  |
 | Descrição do Tutorial | Caixa de Texto | No máximo 70 caracteres. |  |
-| Envio de arquivo | Seleção Única | URL |  |
+| Envio de arquivo | Caixa de Texto | No máximo 70 caracteres. |  |
 
 **Upload do Tutorial**
 
@@ -282,7 +282,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | --- | --- | --- | --- |
 | Nome do Tutorial | Caixa de Texto | No máximo 25 caracteres. |  |
 | Descrição do Tutorial | Caixa de Texto | No máximo 70 caracteres. |  |
-| Envio de arquivo | Seleção Única | URL |  |
+| Envio de arquivo | Caixa de Texto | No máximo 70 caracteres. |  |
 
 **Adicionar Tutorial Ao Módulo**
 
