@@ -342,7 +342,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ### 4.2. Tecnologias
 
-Serão utilizadas HTML, CSS, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usuario desse projeto irá utilizar a interface intuitiva com funçôes bem objetivas e simples, para facilitar o entendimento do projeto.
+As tecnologias que serão utilizadas são HTML, CSS, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usuário desse projeto irá utilizar a interface intuitiva com funçôes bem objetivas e simples, para facilitar o entendimento do projeto.
 
 ## 5. Modelo de dados
 
