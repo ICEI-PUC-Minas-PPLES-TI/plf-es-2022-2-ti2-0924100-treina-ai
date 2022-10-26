@@ -342,7 +342,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ### 4.2. Tecnologias
 
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Serão utilizadas HTML, CSS, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usuario desse projeto irá utilizar a interface intuitiva com funçôes bem objetivas e simples, para facilitar o entendimento do projeto.
 
 ## 5. Modelo de dados
 
