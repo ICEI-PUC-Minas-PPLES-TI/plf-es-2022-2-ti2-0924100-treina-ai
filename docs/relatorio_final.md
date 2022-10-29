@@ -175,20 +175,20 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Primeiro Nome | Caixa de texto |Máximo um nome  |  |
+| Primeiro Nome | Caixa de texto |Máximo um nome  |  |
 
 
 **Inserir Sobrenome**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Sobrenome| Caixa de texto | Máximo dois sobrenomes  |  |
+|Sobrenome| Caixa de texto | Máximo dois sobrenomes  |  |
 
 **Inserir Email**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir email| Caixa de texto | formato de email |  |
+|Email| Caixa de texto | formato de email |  |
 
 
 **Inserir Senha**
@@ -201,16 +201,16 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir telefone| Caixa de texto | formato telefone| (00) 00000-0000 |
+|Telefone| Caixa de texto | formato telefone| (00) 00000-0000 |
 
 
 **Inserir Endereço**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Endereço| Caixa de texto |
-| Inserir Bairro| Caixa de texto | formato texto|  
-| Inserir número residencial| Caixa de texto | formato texto|  
+|Endereço| Caixa de texto |
+| Bairro| Caixa de texto | formato texto|  
+| Número residencial| Caixa de texto | formato texto|  
 
 
 
@@ -225,8 +225,8 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Nome | Caixa de texto | Mínimo dois nomes |  |
-| Inserir Email | Caixa de Texto | formato de e-mail |  |
+| Nome | Caixa de texto | Mínimo dois nomes |  |
+| Email | Caixa de Texto | formato de e-mail |  |
 
 **Inserir Senha**
 
@@ -254,7 +254,7 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Inserir Email | Caixa de Texto | formato de e-mail |  |
+|Email | Caixa de Texto | formato de e-mail |  |
 
 **Inserir Senha**
 
