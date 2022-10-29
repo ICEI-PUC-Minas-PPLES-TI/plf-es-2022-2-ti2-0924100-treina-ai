@@ -348,7 +348,8 @@ As tecnologias que serão utilizadas são HTML, CSS, JavaScript, MySql, bootstra
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Untitled Diagram drawio (6)](https://user-images.githubusercontent.com/102169915/196706821-6d20aa78-76ba-4a84-a0e5-42b36c2b02df.png)
+![Captura de tela 2022-10-29 122620](https://user-images.githubusercontent.com/102169915/198839910-39224822-63ed-409c-9ca6-f4f4791d72df.png)
+
 
 
 
