@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:initial;
+}
+
+body, html {
+  font-family: Nunito, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #111;
+}
+
+.tabela{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  width: 100vw;
+}
+
+.tabela-size{
+  width: 80%;
+  align-self: center;
+}
