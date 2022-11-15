@@ -342,7 +342,23 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 ### 4.2. Tecnologias
 
-As tecnologias que serão utilizadas são HTML, CSS, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usuário desse projeto irá utilizar a interface intuitiva com funçôes bem objetivas e simples, para facilitar o entendimento do projeto.
+**Frontend:**
+- React;
+- Javascript;
+- Vercel para hospedagem;
+- Axios para integração via api com backend;
+
+**Backend:**
+- Node.js;
+- Typescript;
+- Hospedagem Heroku;
+
+**Banco de Dados**
+- Sql server;
+- Hospedagem azure;
+
+**Azure**
+- Contas de armazenamento para cuidar do armazenamento de arquivos.
 
 ## 5. Modelo de dados
 
