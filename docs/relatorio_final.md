@@ -128,7 +128,7 @@ Processo do administrador que fará o registro do aprendz e colocar os materiais
 ### 3.3.2 Processo 2 - Cadastro de Aprendiz
 Processo de cadastro que o Aprendiz irá realizar na plataforma.
 
-![Cadastro Aprendiz BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/a6fa1b4d5a29fb348074a90fe4b0b4dc355d343e/docs/imagens/Cadastro%20de%20Aprendiz.png)
+![Cadastro Aprendiz BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/master/docs/imagens/Cadastro%20de%20Aprendiz%20Revis%C3%A3o.png)
 
 ### 3.3.3 Processo 3 – Login 
 Processo do Usuário para logar na plataforma Treina aí!.
