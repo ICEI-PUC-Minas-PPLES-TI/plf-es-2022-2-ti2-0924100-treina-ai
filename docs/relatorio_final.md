@@ -166,7 +166,7 @@ Este processo demonstra como será a seleção e a realização das provas que i
 
 ## 4. Projeto da Solução
 
-### 4.1. Detalhamento das atividades
+### 4.1.Detalhamento das atividades
 
 Segue abaixo o detalhamento das atividades dos processos estipulados:
 #### Processo 1 – Cadastro de Administrador
