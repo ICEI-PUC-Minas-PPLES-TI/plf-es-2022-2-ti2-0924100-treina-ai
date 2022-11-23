@@ -152,9 +152,7 @@ Processo para realizar a Criação e Atualização de Tutoriais.
 
 ### 3.3.6 Processo 6 - Visualização de Tutoriais
 Processo para visualizar os tutorias disponibilizados nos módulos desbloquedos. 
-
-![WhatsApp Image 2022-10-23 at 17 48 33](https://user-images.githubusercontent.com/102169915/197417537-33e41898-725f-4fc6-9663-39037a53adbb.jpeg)
-
+![Diagrama em branco (17)](https://user-images.githubusercontent.com/81266506/203448622-90d64422-9d79-404e-b903-379dd5d18f7e.png)
 
 
 ### 3.3.7 Processo 7  - Seleção e Realização de provas
