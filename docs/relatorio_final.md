@@ -310,14 +310,14 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Visualiza Módulos | Tabela |  |  |
-| Seleciona Módulo | Seleção única | Módulo deve estar desbloqueado | Usuário ainda não desbloqueou este módulo |
+| Seleciona Módulo | Seleção única | Módulo deve estar disponível | |
 
 **Selecionar Aula**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Listagem de Tutoriais | Tabela |  |   |
-| Seleciona Aula | Seleção única | Aula deve estar desbloqueada |  |
+| Seleciona Aula | Seleção única |  |  |
 | Assistir Tutorial | Arquivo |  |   |
 
 
