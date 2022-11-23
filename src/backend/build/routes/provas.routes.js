@@ -33,4 +33,8 @@ const upload = (0, multer_1.default)({
 });
 router.post('/', upload.single("file"), provas_controller_1.default.cadastrarProva);
 router.post('/Prova', provas_controller_1.default.retornaProva);
+router.post('/EntregarProva', upload.single("file"), provas_controller_1.default.cadastrarProvaFeita);
+router.post('/ProvasAprendiz', provas_controller_1.default.provasFeitas);
+router.get('/ProvasCorrigir', provas_controller_1.default.provasSemNota);
+router.post('/ProvasNota', provas_controller_1.default.cadastrarNota);
 exports.default = router;

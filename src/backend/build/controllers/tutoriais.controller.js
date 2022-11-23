@@ -38,5 +38,19 @@ class Tutoriais {
             return res.status(200).send(resultadoExisteTutorials);
         });
     }
+    apagarTutorial(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { tutorialId } = req.query;
+            let retorno = yield config_1.default.database();
+            let existeTutorial = yield retorno.query(`select * from tutoriais where tutorial_id = ${tutorialId}`);
+            let resultadoExisteTutorials = yield existeTutorial.recordset;
+            if (resultadoExisteTutorials.length == 0) {
+                return res.status(404).send("Não existe mais o tutorial !");
+            }
+            yield retorno.query(`delete from tutorialvizualizado where tutorial_id = ${tutorialId}`);
+            yield retorno.query(`delete from tutoriais where tutorial_id = ${tutorialId}`);
+            return res.status(200).send("Apagou tutorial");
+        });
+    }
 }
 exports.default = new Tutoriais();

@@ -63,5 +63,39 @@ class UsuarioController {
             return res.status(200).send(resultadoModulos);
         });
     }
+    deletarModulo(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { moduloId } = req.query;
+            let retorno = yield config_1.default.database();
+            let existeModulo = yield retorno.query(`select * from modulo where modulo_id = '${moduloId}'`);
+            let resultadoExisteModulos = yield existeModulo.recordset;
+            if (resultadoExisteModulos.length == 0) {
+                return res.status(404).send("Não existe módulo!");
+            }
+            let existeAcessoModulos = yield retorno.query(`select * from acessomodulo where modulo_id = '${moduloId}'`);
+            let resultadoAcessoModulo = yield existeAcessoModulos.recordset;
+            if (resultadoAcessoModulo.length > 0) {
+                yield retorno.query(`delete from acessomodulo where modulo_id = ${moduloId}`);
+            }
+            let existeTutoriais = yield retorno.query(`select * from tutoriais where modulo_id = '${moduloId}'`);
+            let resultadoExisteTutoriais = yield existeTutoriais.recordset;
+            if (resultadoExisteTutoriais.length > 0) {
+                yield resultadoExisteTutoriais.forEach((element) => __awaiter(this, void 0, void 0, function* () {
+                    yield retorno.query(`delete from tutorialvizualizado where tutorial_id = ${element.tutorial_id}`);
+                    yield retorno.query(`delete from tutoriais where tutorial_id = ${element.tutorial_id}`);
+                }));
+            }
+            let existeProvas = yield retorno.query(`select * from provas where modulo_id = '${moduloId}'`);
+            let resultadoExisteProvas = yield existeProvas.recordset;
+            if (resultadoExisteProvas.length > 0) {
+                yield resultadoExisteProvas.forEach((element) => __awaiter(this, void 0, void 0, function* () {
+                    yield retorno.query(`delete from notaprova where prova_id = ${element.prova_id}`);
+                }));
+                yield retorno.query(`delete from provas where modulo_id = ${moduloId}`);
+            }
+            yield retorno.query(`delete from modulo where modulo_id = ${moduloId}`);
+            return res.status(200).send("Módulo Excluído");
+        });
+    }
 }
 exports.default = new UsuarioController();
