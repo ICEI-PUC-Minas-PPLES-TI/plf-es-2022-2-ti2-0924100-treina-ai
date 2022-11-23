@@ -123,7 +123,8 @@ A plataforma será estruturada conforme modelagem sendo composta pelos seguintes
 ### 3.3.1 Processo 1 - Cadastro de Administrador
 Processo do administrador que fará o registro do aprendz e colocar os materiais didaticos para o usuário seguir de acordo com as necessidades da empresa.
 
-![BPMN 2 0 Example](https://user-images.githubusercontent.com/102169915/203561520-909577d9-46d2-4f02-b093-5c8a225a8ead.png)
+![BPMN 2 0 Example (1)](https://user-images.githubusercontent.com/102169915/203562433-efee24d2-97d0-4359-8254-f2aa77a66ca3.png)
+
 
 
 ### 3.3.2 Processo 2 - Cadastro de Aprendiz
