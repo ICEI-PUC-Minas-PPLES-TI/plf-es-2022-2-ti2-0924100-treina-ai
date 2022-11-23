@@ -120,23 +120,15 @@ A plataforma será estruturada conforme modelagem sendo composta pelos seguintes
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 - Cadastro de Administrador
-Processo do administrador que fará o registro do aprendz e colocar os materiais didaticos para o usuário seguir de acordo com as necessidades da empresa.
+### 3.3.1 Processo 1 – Login 
+Processo do Usuário para logar na plataforma Treina aí!. (Um Administrador já irá receber um primeiro acesso, para realização de novos cadastros posteriormente.)
 
-![BPMN 2 0 Example (1)](https://user-images.githubusercontent.com/102169915/203562433-efee24d2-97d0-4359-8254-f2aa77a66ca3.png)
+![Login BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/master/docs/imagens/Realização%20do%20Login_1.png)
 
+### 3.3.2 Processo 2 - Cadastro de Novos Usuarios (Asministrador e Aprendiz)
+Processo de cadastro que o Administrador irá realizar na plataforma, para criar um novo acesso ao site.
 
-
-### 3.3.2 Processo 2 - Cadastro de Aprendiz
-Processo de cadastro que o Aprendiz irá realizar na plataforma.
-
-![Cadastro Aprendiz BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/master/docs/imagens/Cadastro%20de%20Aprendiz%20Revis%C3%A3o.png)
-
-### 3.3.3 Processo 3 – Login 
-Processo do Usuário para logar na plataforma Treina aí!.
-
-![Login BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/ff7d49b30f6fe61beefb36ccdcbb675bb523df1e/docs/imagens/Realiza%C3%A7%C3%A3o%20do%20Login.jpeg)
-
+![Cadastro Aprendiz BPMN](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai/blob/master/docs/imagens/Cadastro%20de%20Novos%20Usuarios.png)
 
 
 ### 3.3.5 Processo 4 – Criação de Módulos 
@@ -169,99 +161,28 @@ Este processo demonstra como será a seleção e a realização das provas que i
 ### 4.1.Detalhamento das atividades
 
 Segue abaixo o detalhamento das atividades dos processos estipulados:
-#### Processo 1 – Cadastro de Administrador
 
-**Inserir Nome**
+#### Processo 1 – Login
+
+**Inserir Nome e  Senha**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Email | Caixa de Texto | formato de e-mail |  |
+| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
+
+
+#### Processo 2 – Cadastro de Novos Usuarios
+
+**Inserir Nome, Email, Sobremome, Senha e o Tipo do usuário (Aprendiz ou Administrador)**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Primeiro Nome | Caixa de texto |Máximo um nome  |  |
-
-
-**Inserir Sobrenome**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-|Sobrenome| Caixa de texto | Máximo dois sobrenomes  |  |
-
-**Inserir Email**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-|Email| Caixa de texto | formato de email |  |
-
-
-**Inserir Senha**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
-
-**Inserir Telefone**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-|Telefone| Caixa de texto | formato telefone| (00) 00000-0000 |
-
-
-**Inserir Endereço**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-|Endereço| Caixa de texto |
-| Bairro| Caixa de texto | formato texto|  
-| Número residencial| Caixa de texto | formato texto|  
-
-
-
-
-
----
-
-
-#### Processo 2 – Cadastro de Aprendiz
-
-**Inserir Nome**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Nome | Caixa de texto | Mínimo dois nomes |  |
-| Email | Caixa de Texto | formato de e-mail |  |
-
-**Inserir Senha**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
-
-**Enviar Dados para o Administrador**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Enviar Dados | Seleção única |   |   |
-
-**Analizar Cadastro do Aprendiz**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Autorizar login | Seleção única |   |   |
-
----
-
-#### Processo 3 – Login
-
-**Inserir Nome**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-|Email | Caixa de Texto | formato de e-mail |  |
-
-**Inserir Senha**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Senha | Caixa de Texto | Mínimo de 8 caracteres |   |
-
+| Sobrenome | Caixa de texto |  |  |
+| Email | Caixa de texto | formato de email |  |
+| Senha | Caixa de Texto | Mínimo de 6 caracteres |   |
+| Tipo de Usario | Seleção única |  |  |
 
 
 ---
@@ -369,7 +290,6 @@ Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Enti
 
 
 
-
 ## 6. Indicadores de desempenho
 
 Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores.
@@ -378,6 +298,7 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
+| Número de usuários logando todos os dias  | Manter controle sobre usuários estão de fato usando a plataforma | Calcula quantos dias um usuario logou ao longo do tempo |   | Contador de Usuários | Numero de real de quantos dias um usuario já logou |
 | Percentual de aprovações | Avaliar a quantidade de aprovações por módulo | Percentual de alunos aprovados nos treinamentos | Número de alunos aprovados/Número total de alunos  | Notas das provas aplicadas | Maior taxa de aprovação possível|
 | Avaliar número de cadastros aprovados | Melhorar a prestação de serviços medindo a porcentagem de logins aprovados | Mede o número de aprovações de cadastros na semana | Número de tentativas de cadastro - os cadastros reprovados | Aprovações de Cadastro | Maior aprovação de cadastro possível sem nenhum erro|
 | Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
