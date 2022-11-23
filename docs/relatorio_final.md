@@ -379,7 +379,7 @@ Usar o seguinte modelo:
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
 | Percentual de aprovações | Avaliar a quantidade de aprovações por módulo | Percentual de alunos aprovados nos treinamentos | Número de alunos aprovados/Número total de alunos  | Notas das provas aplicadas | Maior taxa de aprovação possível|
-| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | ![\frac{\sum{atendidas}}{\sum{requisicoes}}100](https://latex.codecogs.com/svg.latex?\frac{\sum{atendidas}}{\sum{requisicoes}}100) | Tabela solicitações | Processos internos |
+| Avaliar número de cadastros aprovados | Melhorar a prestação de serviços medindo a porcentagem de logins aprovados | Mede o número de aprovações de cadastros na semana | Número de tentativas de cadastro - os cadastros reprovados | Aprovações de Cadastro | Maior aprovação de cadastro possível sem nenhum erro|
 | Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
