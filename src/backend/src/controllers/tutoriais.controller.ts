@@ -28,6 +28,19 @@ class Tutoriais {
         return res.status(200).send(resultadoExisteTutorials);
     }
 
+    public async apagarTutorial(req: any, res: Response): Promise<Response> {
+        const {tutorialId} =  req.query;
+        let retorno = await config.database();
+        let existeTutorial = await retorno.query(`select * from tutoriais where tutorial_id = ${tutorialId}`);
+        let resultadoExisteTutorials = await existeTutorial.recordset;
+        if(resultadoExisteTutorials.length == 0){
+            return res.status(404).send("Não existe mais o tutorial !");
+        }
+        await retorno.query(`delete from tutorialvizualizado where tutorial_id = ${tutorialId}`);
+        await retorno.query(`delete from tutoriais where tutorial_id = ${tutorialId}`);
+        return res.status(200).send("Apagou tutorial");
+    }
+
 }
 
 export default new Tutoriais();

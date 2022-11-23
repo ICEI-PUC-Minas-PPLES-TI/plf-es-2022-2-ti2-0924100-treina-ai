@@ -48,6 +48,45 @@ class UsuarioController {
         let resultadoModulos = await retornoModulos.recordset;
         return res.status(200).send(resultadoModulos);
     }  
+
+    public async deletarModulo(req: Request, res: Response): Promise<Response> {
+        const {moduloId} =  req.query;
+        
+        let retorno = await config.database();
+        let existeModulo = await retorno.query(`select * from modulo where modulo_id = '${moduloId}'`);
+        let resultadoExisteModulos = await existeModulo.recordset;
+        if(resultadoExisteModulos.length == 0){
+            return res.status(404).send("Não existe módulo!");
+        }
+
+        let existeAcessoModulos = await retorno.query(`select * from acessomodulo where modulo_id = '${moduloId}'`);
+        let resultadoAcessoModulo = await existeAcessoModulos.recordset;
+        if(resultadoAcessoModulo.length>0){
+            await retorno.query(`delete from acessomodulo where modulo_id = ${moduloId}`);
+        }
+
+
+        let existeTutoriais = await retorno.query(`select * from tutoriais where modulo_id = '${moduloId}'`);
+        let resultadoExisteTutoriais = await existeTutoriais.recordset;
+        if(resultadoExisteTutoriais.length > 0){
+            await resultadoExisteTutoriais.forEach(async (element: any) => {
+                await retorno.query(`delete from tutorialvizualizado where tutorial_id = ${element.tutorial_id}`);
+                await retorno.query(`delete from tutoriais where tutorial_id = ${element.tutorial_id}`);
+            });
+        }
+
+        let existeProvas = await retorno.query(`select * from provas where modulo_id = '${moduloId}'`);
+        let resultadoExisteProvas = await existeProvas.recordset;
+        if(resultadoExisteProvas.length > 0){
+            await resultadoExisteProvas.forEach(async (element: any) => {
+                await retorno.query(`delete from notaprova where prova_id = ${element.prova_id}`);
+            });
+            await retorno.query(`delete from provas where modulo_id = ${moduloId}`);
+        }
+
+        await retorno.query(`delete from modulo where modulo_id = ${moduloId}`);
+        return res.status(200).send("Módulo Excluído");
+    }
 }
 
 export default new UsuarioController();

@@ -35,5 +35,9 @@ const upload: Multer = multer({
 
 router.post('/',upload.single("file"), provasController.cadastrarProva);
 router.post('/Prova', provasController.retornaProva);
+router.post('/EntregarProva',upload.single("file"), provasController.cadastrarProvaFeita);
+router.post('/ProvasAprendiz', provasController.provasFeitas);
+router.get('/ProvasCorrigir', provasController.provasSemNota);
+router.post('/ProvasNota', provasController.cadastrarNota);
 
 export default router;
