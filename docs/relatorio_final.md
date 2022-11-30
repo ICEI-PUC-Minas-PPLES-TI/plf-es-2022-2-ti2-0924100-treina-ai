@@ -302,6 +302,7 @@ Usar o seguinte modelo:
 | Percentual de aprovações | Avaliar a quantidade de aprovações por módulo | Percentual de alunos aprovados nos treinamentos | Número de alunos aprovados/Número total de alunos  | Banco Nota Prova | Maior taxa de aprovação possível|
 | Taxa de atualização de material | Manter controle sobre os materiais que estão sendo atualizados na plataforma | Mede % de material atualizado dentro do mês |   | Tabela Pedidos | Clientes |
 | Controle de visualização de tutoriais | Medir e controlar tutoriais já assistidos ou pendentes de visualização | Indicador de conclusão do módulo | Indicar nível de visualização dos tutoriais nos módulos correspondentes com base nas aulas marcadas como "assistidas" | Tutoriais assistidos | Usuário aprendiz |
+| Controle de envio de tutoriais | Manter o controle e definir metas para a quantidade de tutoriais que são enviados | Contabilizar quantos tutoriais foram enviados em um mês  | Quantidade de tutoriais adicionados durante o período do mês referido | Envio de tutoriais | Aumentar a quantidade de tutoriais adicionados no mês |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
