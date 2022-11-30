@@ -298,8 +298,8 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Número de usuários logando todos os dias  | Manter controle sobre usuários estão de fato usando a plataforma | Calcula quantos dias um usuario logou ao longo do tempo |   | Contador de Usuários | Numero de real de quantos dias um usuario já logou |
-| Percentual de aprovações | Avaliar a quantidade de aprovações por módulo | Percentual de alunos aprovados nos treinamentos | Número de alunos aprovados/Número total de alunos  | Notas das provas aplicadas | Maior taxa de aprovação possível|
+| Número de usuários logando todos os dias  | Manter controle sobre usuários estão de fato usando a plataforma | Calcula quantos dias um usuário logou ao longo do tempo |   | Contador de Usuários | Numero de real de quantos dias um usuario já logou |
+| Percentual de aprovações | Avaliar a quantidade de aprovações por módulo | Percentual de alunos aprovados nos treinamentos | Número de alunos aprovados/Número total de alunos  | Banco Nota Prova | Maior taxa de aprovação possível|
 | Avaliar número de cadastros aprovados | Melhorar a prestação de serviços medindo a porcentagem de logins aprovados | Mede o número de aprovações de cadastros na semana | Número de tentativas de cadastro - os cadastros reprovados | Aprovações de Cadastro | Maior aprovação de cadastro possível sem nenhum erro|
 | Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
 | Controle de visualização de tutoriais | Medir e controlar tutoriais já assistidos ou pendentes de visualização | Indicador de conclusão do módulo | Indicar nível de visualização dos tutoriais nos módulos correspondentes com base nas aulas marcadas como "assistidas" | Tutoriais assistidos | Usuário aprendiz |
