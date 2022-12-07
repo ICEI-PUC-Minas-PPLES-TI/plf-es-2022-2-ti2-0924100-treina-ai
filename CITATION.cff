@@ -1,19 +1,19 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Treina aí
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Castanheira Marquezine
+    given-names: Bruno 
+  - family-names: Diniz Carvalho
+    given-names: Rodrigo
+  - family-names: Aguilar Araujo D'almeida
+    given-names: Marcelo
+  - family-names: Bezerra Alves
+    given-names: Daniel
+  - family-names: Carvalho Barbosa
+    given-names: Lucas
+  - family-names:Rosa Julio Mendes
+    given-names: Otávio
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Neves Rodrigues 
@@ -27,9 +27,9 @@ authors:
     family-names: Bastos de Paula
     given-names: Hugo  
 keywords:
-  - 
-  - 
-repository-code: 
+  - Treinamento
+  - Aprendizado
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-treina-ai
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2021-12-14
+date-released: 2022-12-14
