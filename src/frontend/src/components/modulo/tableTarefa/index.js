@@ -7,9 +7,27 @@ import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
 import * as FaIcons from 'react-icons/fa';
 import Api from '../../../service/Api';
+import {useForm} from 'react-hook-form';
+import { useDisclosure } from '@chakra-ui/react';
+import ModalMudarTarefa from '../modalMudarTarefa';
 function LinhaTarefa(props) {
     const { row } = props;
     const [open, setOpen] = React.useState(false);
+    const {register, handleSubmit, formState: { errors, isSubmitting }, reset} = useForm();
+    const { isOpen, onOpen, onClose } = useDisclosure();
+
+    const onSubmit = (data) =>{
+        let criarTarefa = {
+            nome: data.name,
+            conteudo: data.conteudo,
+            video: data.video,
+            tutorialId: row.tutorial_id
+        }
+        Api.post(`/Tutorial/Modificar`, criarTarefa)
+        .then((res) => alert(res.data))
+        .catch((res) => alert(res.data))
+      }
+
     function apagarTutorial (){
         Api.delete(`/Tutorial/Apagar?tutorialId=${row.tutorial_id}`)
         .then((res) => alert(res.data))
@@ -18,6 +36,7 @@ function LinhaTarefa(props) {
     }
     return (
     <React.Fragment>
+        <ModalMudarTarefa isOpen={isOpen} onClose={onClose} handleSubmit={handleSubmit} onSubmit={onSubmit} errors={errors} register={register} isSubmitting={isSubmitting}/>
         <TableRow>
         <TableCell>
             <IconButton
@@ -32,6 +51,9 @@ function LinhaTarefa(props) {
         </TableCell>
         <TableCell component="th" scope="row">
             <button onClick={apagarTutorial}> <FaIcons.FaTrashAlt /> </button>
+        </TableCell>
+        <TableCell component="th" scope="row">
+            <button onClick={onOpen}> <FaIcons.FaPen /> </button>
         </TableCell>
         </TableRow>
         <TableRow>
