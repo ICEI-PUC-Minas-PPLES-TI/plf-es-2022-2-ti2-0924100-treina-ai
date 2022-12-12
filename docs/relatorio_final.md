@@ -312,7 +312,11 @@ Faça aqui uma breve descrição do software e coloque as principais telas com u
 
 ## 8. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
+No tocante ao problema do presente trabalho foi apontado o custo com mão de obra qualificada para treinamento de novos colaboradores adentrando à organizações. Foi levantado os objetivos para tentar findar este contratempo no que abrange empregadores com desejo de crescer com menor custo. 
+
+Sob uma perspectiva inovadora de treinamento eficaz e eficiente, podemos surfar no avanço tecnológico em que vivemos para otimizar e acelerar o processo de treinamento e capacitação de pessoal.  
+
+Nesse contexto, foi elaborado uma aplicação para treinamento e controle de desempenho dos usuários aprendizes por meio de manipulação e controle dos dados expostos por eles, o que decorre de interesses organizacionais e influência diretamente em uma melhor gestão de pessoal e custos entrelaçados.
 
 # REFERÊNCIAS
 
