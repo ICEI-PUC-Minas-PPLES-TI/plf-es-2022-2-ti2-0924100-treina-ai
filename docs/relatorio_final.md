@@ -308,7 +308,31 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## 7.Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+O Software funciona perfeitamente como planejado. Todos os processos projetados foram incluidos no sistema e estão em funcionamento. O software é dividio em dois tipos de usuários, o Administrador e o Aprendiz. O Administrador tem funções a mais que o Aprendiz como a criação de módulos, tutoriais, provas e o cadastro de um novo Aprendiz ou Administrador. O Aprendiz pode apenas vizualizar os módulos e tutoriais, e apenas fazer e entregar as provas. Agora vamos ver alguns exemplos de telas do Software. 
+
+1- Esta é a primeira tela do software, a tela de login.
+![Tela Login](https://user-images.githubusercontent.com/103525330/207633542-94b0a570-87a9-43c0-a62a-622e5576086a.jpg)
+
+2- Esta é a tela que apenas o Administrador tem acesso, ela serve para o cadastro de novos usuários.
+![Cadastro adm aprendiz](https://user-images.githubusercontent.com/103525330/207633788-6747e955-197a-4851-9b2a-639ba9422dd7.jpg)
+
+3- Esta é outra tela que apenas o Administrador utiliza, que é a criação de módulos.
+![Cadastro modulo](https://user-images.githubusercontent.com/103525330/207633958-2f5de8e3-c479-45d5-bef5-a7ae32cd9b34.jpg)
+
+4-Esta é outra tela que apenas o Administrador utiliza, que é a criação de tutoriais.
+![Cadastro tutoriais](https://user-images.githubusercontent.com/103525330/207634075-b50fe8ff-e0dc-47e4-9495-3612b57c3526.jpg)
+
+5-Esta é outra tela que apenas o Administrador utiliza, que é a criação de provas.
+![criacao provas](https://user-images.githubusercontent.com/103525330/207634186-509f5b84-a870-4dd9-9417-05744c1457c8.jpg)
+
+6- Esta é a tela de correção de provas, usada pelo Administrador.
+![correção provas adm](https://user-images.githubusercontent.com/103525330/207636647-15dcf5dc-c3a9-479c-9e1b-ef963bca6d99.jpg)
+
+7- Esta é a tela de vizualização de módulos e tutoriais, usada pelo aprendiz.
+![vizualizar módulos e tutoriais](https://user-images.githubusercontent.com/103525330/207636186-66d330d0-8e58-495d-accc-006505658981.jpg)
+
+8- Esta é a tela de vizualização de notas, usada pelo aprendiz.
+![Notas Aprendiz](https://user-images.githubusercontent.com/103525330/207636412-28d5d5d5-d4de-4aa4-bc8a-7c95d6874c62.jpg)
 
 ## 8. Conclusão
 
