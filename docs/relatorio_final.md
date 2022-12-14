@@ -285,7 +285,8 @@ Segue abaixo o detalhamento das atividades dos processos estipulados:
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Tabela BD](https://user-images.githubusercontent.com/102169915/204152519-286f4e95-8297-428f-8802-35ef8e6acd54.png)
+![Captura de tela 2022-12-12 210230](https://user-images.githubusercontent.com/102169915/207682211-dc52f11f-ba86-41e8-bf80-215eed41cf43.png)
+
 
 
 
