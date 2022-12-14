@@ -298,7 +298,7 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Número de usuários logando todos os dias  | Saber quantos usuarios estão de usando a plataforma | Calcula quantos dias um usuário logou ao longo do tempo | Somatorio com o númerio de usuarios logados | Contador de Usuários | Numero de usuario já logou na plataforma |
+| Nota do Aluno referente a prova  | Saber quanto o usuarios recebeu de nota logo após a correção das respostas  | Mostrar a nota do aprendiz | Número de acertos vezes o valor da questão | banco notaprova | Valor da nota do aprendiz |
 | Percentual de aprovações | Avaliar a quantidade de aprovações por módulo | Percentual de alunos aprovados nos treinamentos | Número de alunos aprovados/Número total de alunos  | Banco Nota Prova | Maior taxa de aprovação possível|
 | Taxa de atualização de material | Manter controle sobre os materiais que estão sendo atualizados na plataforma | Mede % de material atualizado dentro do mês |   | Tabela Pedidos | Clientes |
 | Controle de visualização de tutoriais | Medir e controlar tutoriais já assistidos ou pendentes de visualização | Indicador de conclusão do módulo | Indicar nível de visualização dos tutoriais nos módulos correspondentes com base nas aulas marcadas como "assistidas" | Tutoriais assistidos | Usuário aprendiz |
