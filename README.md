@@ -20,5 +20,5 @@ Treina aí é uma solução inovadora para otimizar o processo de aprendizado de
 
 * https://frontend-gold-pi.vercel.app/
 * Login e senha para teste: 
-   usuarioteste@gmail.com
-   testeteste
+*  email: usuarioteste@gmail.com
+* Senha: testeteste
