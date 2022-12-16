@@ -18,4 +18,7 @@ Treina aí é uma solução inovadora para otimizar o processo de aprendizado de
 * Cristiano Geraldo Teixeira Silva
 ## Link de Acesso ao trabalho
 
-*https://frontend-gold-pi.vercel.app/
+* https://frontend-gold-pi.vercel.app/
+* Login e senha para teste: 
+   usuarioteste@gmail.com
+   testeteste
